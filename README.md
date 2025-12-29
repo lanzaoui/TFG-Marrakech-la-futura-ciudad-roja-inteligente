@@ -15,11 +15,9 @@ Este análisis permite:
 
 ## Contenido del repositorio
 
-- `TFG_Marrakech_Solar.ipynb`: Notebook de Google Colab con el flujo completo de análisis.  
-- `datos/`: Carpeta que contiene los archivos necesarios:
-  - `.tiff`: Imágenes satélite de la zona estudiada.  
-  - `.shp`: Archivos vectoriales de los edificios seleccionados.  
+- `TFG_Marrakech_Solar.ipynb`: Notebook de Google Colab con el flujo completo de análisis.   
 - `README.md`: Este archivo.
+- Los archivos .tiff y .shp necesarios para ejecutar el notebook están disponibles en Hugging Face Hub: https://huggingface.co/datasets/lanzaoui/buildings/tree/main
 
 ## Requisitos
 
@@ -32,18 +30,11 @@ Este análisis permite:
   - `pandas`
 
 > Todas las librerías se pueden instalar directamente en Colab si no están presentes.
->
-> ## Datos grandes
-Los archivos .tiff y .shp necesarios para ejecutar el notebook están disponibles en Hugging Face Hub:
-
-- Repositorio: https://huggingface.co/datasets/lanzaoui/buildings/tree/main
-
-El notebook descargará automáticamente estos archivos si se ejecuta en Colab.
 
 ## Aviso sobre visualización de mapas interactivos
 
 Algunas celdas del notebook generan mapas interactivos con GeoPandas.  
 - GitHub no ejecuta notebooks, por lo que los mapas interactivos **no se visualizan directamente**.  
-- Para ver correctamente los mapas y resultados interactivos, abre el notebook en Google Colab y ejecútalo.  
+- Para ver correctamente los mapas y resultados interactivos, se recomienda abrir el notebook en Google Colab y ejecútalo.  
 - Las figuras estáticas (gráficos PNG) sí se visualizan en GitHub sin problemas.
 

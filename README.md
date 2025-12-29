@@ -32,6 +32,13 @@ Este análisis permite:
   - `pandas`
 
 > Todas las librerías se pueden instalar directamente en Colab si no están presentes.
+>
+> ## Datos grandes
+Los archivos .tiff y .shp necesarios para ejecutar el notebook están disponibles en Hugging Face Hub:
+
+- Repositorio: https://huggingface.co/datasets/lanzaoui/buildings/tree/main
+
+El notebook descargará automáticamente estos archivos si se ejecuta en Colab.
 
 ## Aviso sobre visualización de mapas interactivos
 
